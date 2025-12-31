@@ -1,0 +1,52 @@
+# German Learn Platform - .gitignore
+# Security: Do not commit sensitive files
+
+# Configuration files with sensitive data
+config/config.php
+config/database.php
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache
+cache/
+*.cache
+
+# Uploads (if any)
+uploads/
+storage/
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+
+# Backup files
+*.sql
+*.backup
+*.bak
